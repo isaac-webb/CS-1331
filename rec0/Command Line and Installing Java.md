@@ -31,7 +31,7 @@ https://docs.oracle.com/javase/9/install/installation-jdk-and-jre-microsoft-wind
 
 ## Command Line Instructions
 |Windows | Linux / Mac (nix) | Description | Notes |
-| ------- | ----------------| ------------ | -------|
+| ------- | ----------------| ---------- | -------|
 | dir | ls | Lists everything in the current working directory | ls stands for list, dir stands for directory |
 | cd "path/to/dir"| cd path/to/dir | Change the current working directory to the specified directory | cd stands for change directory |
 | cd.. | cd.. | Move up one directory | |
