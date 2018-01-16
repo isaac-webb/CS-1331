@@ -6,7 +6,7 @@ you, as CS 1331 students, are the `javac`, `java`, and `jshell` commands.
 
 ## Installing Java
 ### Mac
-**Note: If you had the command not found issue while running jshell, try pasting and running this command into your terminal (and restarting terminal)**
+**Note: If you had the "command not found" issue while running jshell, try pasting and running this command into your terminal (and restarting terminal)**
 ```
 echo 'PATH="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin:{$PATH}" export PATH' >> ~/.bash_profile;
 ```
