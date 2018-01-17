@@ -126,7 +126,7 @@ run:
 ### List Command History
 
 To list all of the code and commands you've run inside of the current instance,
-run
+run:
 
 ```
 /history
@@ -134,7 +134,7 @@ run
 
 ### List Variables and Variable Values
 
-To list all of the variables inside of the current instance, run
+To list all of the variables inside of the current instance, run:
 
 ```
 /vars
