@@ -44,7 +44,7 @@ String showName = "A Game of Thrones";
 ```
 I once had a friend who only used different names of potatoes (Yukon, Gold, Russet) for her variable names. Don't be *thaat* friend.
 
-![alt text](https://github.com/isaac-webb/CS-1331/tree/master/rec2/readme-resources/CamelCase.png "Camels be camelin")
+![alt text](CamelCase.png "Camels be camelin")
 
 **CamelCase** is also another part of java naming convention.
 **UpperCamelCase** looks like so, and **lowerCamelCase** looks like this.
