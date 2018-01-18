@@ -9,7 +9,7 @@
 
 ## Variables
 
-#### Vocabulary
+### Vocabulary
 
 **Type**: defines the variables structure, how much memory a variable can take up, how the variable is laid out, and how we can interact with the variable.
 
@@ -32,7 +32,7 @@ We can declare and initialize a variable in the same line if we want like so:
 <type> <variable name> = <value>;
 ```
 
-#### Naming Convention
+### Naming Convention
 
 When it comes to good naming convention, the single most important part is having a descriptive variable name. So for example if we have a variable that describes a TV shows name, instead of:
 ```
@@ -49,7 +49,7 @@ I once had a friend who only used different names of potatoes (Yukon, Gold, Russ
 
 we use **lowerCamelCase** for variable names, and **UpperCamelCase** for class names.
 
-#### Primitives
+### Primitives
 byte (8 bits) 
 
 short (16 bits)
@@ -68,7 +68,7 @@ char (16 bits)
 
 boolean (8 bits?)
 
-#### Conversion, Narrow/Widening, Explicit/Implicit
+### Conversion, Narrow/Widening, Explicit/Implicit
 For further practice of these topics, I recommend downloading and running the java source code that we went over in class.
 
 **Narrowing**: Bigger goes to smaller (loses precision)
@@ -80,7 +80,7 @@ this is an implicit cast.
 
 ## Objects
 
-#### Strings
+### Strings
 Strings can be **instantiated** in 2 different ways
 ```
 String helloWorld = new String("Hello World!");
@@ -100,7 +100,7 @@ new String(); // The String() is a call to the constructor
 new String("Hello World"); // The "Hello World" inside the parens is called a parameter
 ```
 
-#### Scanner
+### Scanner
 Just like how we can create a new instance of a String, we'll be creating a new instance of a Scanner. This is useful for HW1, but since I'm releasing this guide pretty late I doubt any of you will see this by then.
 
 ```
