@@ -44,13 +44,21 @@ we use **lowerCamelCase** for variable names, and **UpperCamelCase** for class n
 
 #### Primitives
 byte (8 bits) 
+
 short (16 bits)
+
 int (32 bits)
+
 long (64 bits)
+
 **float** (32 bits)
+
 **double** (64 bits)
+
 **bold** = decimal numbers
+
 char (16 bits)
+
 boolean (8 bits?)
 
 #### Conversion, Narrow/Widening, Explicit/Implicit
@@ -127,9 +135,13 @@ The format String should follow the following format:
 
 some common conversion characters:
 d : decimal integer [byte, short, int, long]
+
 f : floating-point number [float, double]
+
 c : character Capital C will uppercase the letter
+
 s : String Capital S will uppercase all the letters in the string
+
 n : newline Platform specific newline character- use %n instead of \n for greater compatibility
 
 example:
