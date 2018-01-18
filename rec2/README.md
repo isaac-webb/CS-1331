@@ -4,7 +4,7 @@
     * [Vocabulary](#vocabulary)
     * [Naming Convention](#naming-convention)
     * [Primitives](#primitives)
-    * [Conversion, Narrow/Widening, Explicit/Implicit] (#Conversion,-Narrow/Widening,-Explicit/Implicit)
+    * [Conversion, Narrow/Widening, Explicit/Implicit] (#conversion-narrow/widening-explicit/implicit)
 2. [Objects](#objects)
 3. [Printf](#printf)
 
