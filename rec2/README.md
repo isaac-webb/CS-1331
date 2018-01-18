@@ -2,9 +2,9 @@
 
 1. [Variables](#variables)
     * [Vocabulary](#vocabulary)
-    * [Naming Convention](#naming convention)
+    * [Naming Convention](#naming-convention)
     * [Primitives](#primitives)
-    * [Conversion, Narrow/Widening, Explicit/Implicit] (#Conversion, Narrow/Widening, Explicit/Implicit)
+    * [Conversion, Narrow/Widening, Explicit/Implicit] (#Conversion,-Narrow/Widening,-Explicit/Implicit)
 2. [Objects](#objects)
 3. [Printf](#printf)
 
