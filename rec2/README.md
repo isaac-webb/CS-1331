@@ -1,8 +1,12 @@
 # Recitation 2
 
 1. [Variables](#variables)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
+    * [Vocabulary](#vocabulary)
+    * [Naming Convention](#naming convention)
+    * [Primitives](#primitives)
+    * [Conversion, Narrow/Widening, Explicit/Implicit] (#Conversion, Narrow/Widening, Explicit/Implicit)
+2. [Objects](#objects)
+3. [Printf](#printf)
 
 ## Variables
 
