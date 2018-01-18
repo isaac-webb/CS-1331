@@ -1,5 +1,9 @@
 # Recitation 2
 
+1. [Variables](#variables)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+
 ## Variables
 
 #### Vocabulary
