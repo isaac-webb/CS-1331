@@ -1,4 +1,5 @@
 # Command Line Instructions and Installing Java
+
 This is a quick tutorial on how to install java and use Command Prompt/Terminal.
 
 ## Installing Java
@@ -33,11 +34,13 @@ echo 'PATH="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin:{$
 ```
 
 ### Windows
+
 For instructions on installing Java on Windows, go
 [here](https://docs.oracle.com/javase/9/install/installation-jdk-and-jre-microsoft-windows-platforms.htm#JSJIG-GUID-E3C75F92-D3B2-421D-A9BE-933C15F7CD1B).
 
 
 ## Command Line Instructions
+
 | Windows | Linux / Mac (*nix) | Description | Notes |
 | ------- | ---------------- | ---------- | ------- |
 | `dir` | `ls` | Lists everything in the current working directory | `ls` stands for list, `dir` stands for directory |
