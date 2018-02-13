@@ -11,6 +11,29 @@ Lets imagine a world without packages:
 As you can probably imagine, this can get very out of hand very quickly.
 
 ## How do we create a package?
-Creating a package is actually really easy! It involves 2 parts:
-* Creating a folder that is the name of our package
-* Creating the file in that 
+Creating a package is actually really easy! It involves a couple of steps:
+1. Creating a folder that is the name of our package
+2. Moving the java files that we want to be a part of the package into the folder
+3. adding the line `package package_name` at the top of all the java files in the folder
+
+For example if we had a file structure that looks like this
+![example file structure](filestructure.png)
+
+and a file named Test.java:
+```java 
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello!");
+  }
+}
+```
+
+We would then simply add our package name to the file so that it looks like:
+```java
+package examplepackage
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello!");
+  }
+}
+```
