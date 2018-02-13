@@ -9,7 +9,7 @@ Lets imagine a world without packages:
 * We're only allowed to use a name once
 * All of our classes have access to every other class in that directory
 
-As you can probably imagine, this can get very out of hand very quickly. With larger chunks of code not making packages can make life difficult for us.
+As you can probably imagine, this can get very out of hand very quickly. With larger chunks of code, not making packages can make life difficult for us.
 
 ## How do we create a package?
 Creating a package is actually really easy! It involves a couple of steps:
