@@ -1,7 +1,7 @@
 # Packages
 
 ## What is a package?
-In java, a **package** is a group of classes/enums/things-we-haven't-learned-about that allows us to categorize the classes. It's really useful for organization, and it helps remove naming conflicts, and provide access protection - which basically just means we can limit which classes can use the Types in the package.
+In java, a **package** is a group of classes/enums/things-we-haven't-learned-about that allows us to categorize the classes. It's really useful for organization, and it helps remove naming conflicts, and provide access protection.
 
 ## What is the point of a package?
 Lets imagine a world without packages:
@@ -9,7 +9,7 @@ Lets imagine a world without packages:
 * We're only allowed to use a name once
 * All of our classes have access to every other class in that directory
 
-As you can probably imagine, this can get very out of hand very quickly.
+As you can probably imagine, this can get very out of hand very quickly. With larger chunks of code not making packages can make life difficult for us.
 
 ## How do we create a package?
 Creating a package is actually really easy! It involves a couple of steps:
