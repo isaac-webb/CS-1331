@@ -45,6 +45,7 @@ And finally put our file into the directory of our package like so:
 ## How do we use a package?
 Now say we want to use the files in our "examplepackage" package. From a file named `Main` in the directory above it:
 ![example file structure](file_structure.png)
+
 as we can see we have the package named "examplepackage" next to our file named `Main.java`. We now have to access the package in the `Main.java` file itself. Here is what Main.java looks like before we access the package.
 ```java
 public class Main {
