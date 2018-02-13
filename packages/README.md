@@ -41,3 +41,6 @@ public class Test {
 
 And finally put our file into the directory of our package like so:
 ![example package](package.png)
+
+## How do we use a package?
+Now say we want to use the files in our "examplepackage" package. From a file named `Main` in the directory above it
