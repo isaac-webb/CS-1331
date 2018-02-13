@@ -38,3 +38,6 @@ public class Test {
   }
 }
 ```
+
+And finally put our file into the directory of our package like so:
+![example package](package.png)
