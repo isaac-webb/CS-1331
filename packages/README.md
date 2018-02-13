@@ -44,6 +44,8 @@ And finally put our file into the directory of our package like so:
 
 ## How do we use a package?
 Now say we want to use the files in our "examplepackage" package. From a file named `Main` in the directory above it:
+![example file structure](file_structure.png)
+as we can see we have the package named "examplepackage" next to our file named `Main.java`. We now have to access the package in the `Main.java` file itself. Here is what Main.java looks like before we access the package.
 ```java
 public class Main {
   public static void main(String[] args) {
@@ -51,8 +53,7 @@ public class Main {
   }
 }
 ```
-In order for this to work we have to import the package, and the file. You have done this before for Scanner and Random!
-
+In order for this to work we have to import the package, and the file. You have done this before for Scanner and Random! the line to do this happnes at the top of your program and follows the structure: `import package_name.ClassName;` For our example you can see it below:
 ```java
 import examplepackage.Test;
 public class Main {
