@@ -23,8 +23,8 @@ For example if we had a file structure that looks like this, and we wanted our p
 and a file named Test.java:
 ```java 
 public class Test {
-  public static void main(String[] args) {
-    System.out.println("Hello!");
+  public static int sum(int a, int b) {
+    return a + b;
   }
 }
 ```
@@ -33,8 +33,8 @@ We would then simply add our package name to the file so that it looks like:
 ```java
 package examplepackage;
 public class Test {
-  public static void main(String[] args) {
-    System.out.println("Hello!");
+  public static int sum(int a, int b) {
+    return a + b;
   }
 }
 ```
@@ -43,4 +43,23 @@ And finally put our file into the directory of our package like so:
 ![example package](package.png)
 
 ## How do we use a package?
-Now say we want to use the files in our "examplepackage" package. From a file named `Main` in the directory above it
+Now say we want to use the files in our "examplepackage" package. From a file named `Main` in the directory above it:
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Test.sum(5, 4));
+  }
+}
+```
+In order for this to work we have to import the package, and the file. You have done this before for Scanner and Random!
+
+```java
+import examplepackage.Test;
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Test.sum(5, 4));
+  }
+}
+```
+
+And thats it! Our package works and can be used by our class. 
