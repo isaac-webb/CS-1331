@@ -8,6 +8,7 @@ Lets imagine a world without packages:
 * All of our code is in one folder
 * We're only allowed to use a name once
 * All of our classes have access to every other class in that directory
+
 As you can probably imagine, this can get very out of hand very quickly.
 
 ## How do we create a package?
