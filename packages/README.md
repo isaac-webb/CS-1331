@@ -30,7 +30,7 @@ public class Test {
 
 We would then simply add our package name to the file so that it looks like:
 ```java
-package examplepackage
+package examplepackage;
 public class Test {
   public static void main(String[] args) {
     System.out.println("Hello!");
