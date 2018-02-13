@@ -18,7 +18,7 @@ Creating a package is actually really easy! It involves a couple of steps:
 3. adding the line `package package_name` at the top of all the java files in the folder
 
 For example if we had a file structure that looks like this, and we wanted our package name to be "examplepackage"
-![example file structure](filestructure.png)
+![example file structure](file_structure.png)
 
 and a file named Test.java:
 ```java 
