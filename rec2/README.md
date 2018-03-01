@@ -284,6 +284,12 @@ Click [here](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html) to
 read the String API, which gives a detailed description of all of the ways to
 create and use Strings.
 
+While it may not make much sense right now, Strings are also special in that
+they are **immutable** in Java. Once you create a `String` object, you cannot
+change it. You will notice all of the methods which manipulate Strings in the
+API return another `String`. That is because Strings are immutable; methods like
+`split()` or `replace()` do not modify the `String` you call them on.
+
 ### Scanner
 
 Just like how we can create a new instance of a String, we'll be creating a new

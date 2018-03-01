@@ -1,3 +1,5 @@
+// Credit where credit is due: thanks to another Stasko TA for writing this!
+
 import java.util.Scanner;
 
 public class CastingQuestions {
@@ -49,7 +51,7 @@ public class CastingQuestions {
 		System.out.println("b: " +b);
 		scan.nextLine();
 	}
-	
+
 	public void method3() {
 		System.out.print("double d = 5;");
 		scan.nextLine();
@@ -57,7 +59,7 @@ public class CastingQuestions {
 		System.out.println("d: " + d);
 		scan.nextLine();
 	}
-	
+
 	public void method4() {
 		System.out.print("long l = 5.0;");
 		scan.nextLine();

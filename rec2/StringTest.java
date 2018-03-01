@@ -1,3 +1,5 @@
+// Credit where credit is due: thanks to another Stasko TA for writing this!
+
 public class StringTest {
 	public static void main(String[] args) {
 		//Following lines are equivalent:
@@ -24,7 +26,5 @@ public class StringTest {
 
 		//length: pretty self explanatory
 		System.out.println(oneString.length());
-
-		//CHECK THE API!!!!!!!!!!!
 	}
 }

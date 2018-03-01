@@ -1,3 +1,5 @@
+// Credit where credit is due: thanks to another Stasko TA for writing this!
+
 import java.util.Scanner;
 
 public class ScanTest {
