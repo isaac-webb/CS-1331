@@ -1,7 +1,7 @@
 /**
  * A simple class that says hello to the world!
  *
- * @author iwebb6
+ * @author Isaac Webb
  * @version 1.0
  */
 public class HelloWorld {
@@ -14,4 +14,5 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
     }
+    
 }
